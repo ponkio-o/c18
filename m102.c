@@ -27,7 +27,7 @@ int main(){
 
     //縦の最大値計算
     for(j=0;j<YLEN;j++){
-        tatemax[j]=a[j][0];
+        tatemax[j]=a[0][j];
         for(i=0;i<XLEN;i++){
             if(tatemax[j]<a[i][j]){
                 tatemax[j]=a[i][j];
